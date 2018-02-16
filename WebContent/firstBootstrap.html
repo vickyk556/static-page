@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bootstrap Example</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script
+	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<style>
+#img img {
+	height: 200px;
+	width: 200px;
+}
+
+#a img {
+	height: 400px;
+	width: 400px;
+}
+</style>
+
+</head>
+<body>
+
+	<div class="row">
+		<h1 class="col-sm-2">
+			Some<small>small tag</small>
+		</h1>
+		<p class="col-sm-2">
+			This is some
+			<mark>mark tag</mark>
+		</p>
+		<p class="col-sm-2">
+			This is<abbr title="hello world">abbr tag</abbr>.
+		</p>
+		<p class="col-sm-2">This is some text.</p>
+		<p class="col-sm-2">This is some text.</p>
+
+	</div>
+	<div class="container">
+		<ul class="nav nav-tabs">
+			<li><a href="#">Home</a></li>
+			<li class="active"><a href="#">Profile</a></li>
+			<li><a href="#">Gallery</a></li>
+			<li><a href="#">About us</a></li>
+		</ul>
+	</div>
+	<div class="container">
+		<ul class="nav nav-pills">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Profile</a></li>
+			<li class="active"><a href="#">Gallery</a></li>
+			<li><a href="#">About us</a></li>
+		</ul>
+	</div>
+	<div class="container">
+		<nav class="navbar navbar-inverse navbar-bottom">
+			<div class="container-fluid">
+				<div>
+					<ul class="nav navbar-nav">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Profile</a></li>
+						<li class="active"><a href="#">Gallery</a></li>
+						<li><a href="#">About us</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#"><span class="glyphicon glyphicon-user"></span>
+								Sign Up</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-log-in"></span>
+								Sign in</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+	<div class="container">
+		<form role="form">
+			<div class="form-group divider">
+				<label class="control-label col-sm-2">Email</label> <input
+					type="email" class="form-control" />
+			</div>
+			<div class="form-group">
+				<label class="control-label col-sm-2">Password</label> <input
+					type="password" class="form-control" />
+			</div>
+		</form>
+	</div>
+	<form class="form-inline" role="form">
+		<div class="form-group divider">
+			Email : <input type="email" class="form-control" />
+		</div>
+		<div class="form-group">
+			Password : <input type="password" class="form-control" />
+
+		</div>
+	</form>
+	<form class="form-horizontal" role="form">
+		<div class="form-group divider">
+			<label class="control-label col-sm-2">Email</label>
+			<div class="col-sm-4">
+				<input type="email" class="form-control" />
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label col-sm-2">Password</label>
+			<div class="col-sm-4">
+				<input type="password" class="form-control" />
+			</div>
+		</div>
+	</form>
+	</div>
+	<div>
+		<h3 class="bg-success">(bg success)Blockquote</h3>
+		<blockquote>
+			<p class="text-muted">(muted text color)bootstrap practice</p>
+		</blockquote>
+		<blockquote class="blockquote-reverse">
+			<p class="text-primary">(text primary)blcokquote reverse</p>
+		</blockquote>
+	</div>
+	<div>
+		<pre>
+<p class="bg-info">(bg-info)this is <code>code tag</code>
+			</p>
+<p class="text-warning">(text warning)this is kbd tag<kbd> ctrl+p</kbd> </p>
+</pre>
+	</div>
+	<dl>
+		<dt class="bg-danger">(bg danger)Coffee</dt>
+		<dd>black hot drink</dd>
+		<dt>Tea</dt>
+		<dd>normal tea,green tea</dd>
+	</dl>
+	<div class="container">
+		<h1 class="page-header">
+			<center>Table</center>
+		</h1>
+		<table class="table table-bordered table-hover table-striped">
+
+			<thead>
+				<tr>
+					<th>First Name</th>
+					<th>Last Name</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>vicky</td>
+					<td>kumar</td>
+				</tr>
+				<tr>
+					<td>vikas</td>
+					<td>kumar</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div id="img">
+		<img class="img-rounded" src="banner01.jpg" /> <img
+			class="img-circle" src="banner01.jpg" /> <img class="img-thumbnail"
+			src="banner01.jpg" /> <img class="img-responsive img-circle"
+			src="banner01.jpg" />
+	</div>
+
+	<div id="row">
+		<div class="col-md-6">
+			<a href="banner01.jpg" class="thumbnail"><p>click this</p> <img
+				class="img-rounded" src="banner01.jpg" /></a>
+		</div>
+		<div class="col-md-6">
+			<a href="banner01.jpg" class="thumbnail"><img class="img-circle"
+				src="banner01.jpg" /></a>
+		</div>
+	</div>
+	<div class="container">
+		<div class="jumbotron">
+			<h1>Jumbotron</h1>
+			<p>in container</p>
+		</div>
+		<div class="well">basic well</div>
+		<p>
+		<center class="well well-sm text-info">small well</center>
+		</p>
+		<p class="well well-lg">large well</p>
+	</div>
+	<div class="jumbotron">
+		<h1>Jumbotron</h1>
+		<p>outside container</p>
+	</div>
+
+
+
+	<div>
+		<input type="button" class="btn btn-primary" value="primary" /> <input
+			type="button" class="btn btn-default" value="default" /> <a href="#"
+			class="btn btn-success" role="button">success a tag</a><br> <input
+			type="button" class="btn btn-info btn-block " value="primary" /><br>
+		<button class="btn btn-danger">danger</button>
+		<input type="button" class="btn btn-warning active"
+			value="active warning" /> <input type="button"
+			class="btn btn-warning" value="warning" /> <input type="button"
+			class="btn btn-warning disabled" value="disabled warning" /> <input
+			type="button" class="btn btn-link" value="link" />
+	</div>
+	<div class="container">
+		<div class="alert">!normal alert</div>
+		<div class="alert alert-success">!success alert</div>
+		<div class="alert alert-danger">!Danger alert</div>
+		<div class="alert alert-warning">
+			<a href="#" class="close" data-dismiss="alert">&times;</a>
+			<p>!warning alert with closing tag</p>
+		</div>
+		<div class="alert alert-info fade in">
+			<a href="#" class="close" data-dismiss="alert">&times</a>
+			<p>!info tag with fade in</p>
+		</div>
+	</div>
+	<div class="container">
+		<div class="btn-group">
+			button group; <input type="button" class="btn btn-primary"
+				value="Apple" /> <input type="button" class="btn btn-primary"
+				value="samsung" /> <input type="button" class="btn btn-primary"
+				value="sony" />
+		</div>
+		<div class="btn-group btn-group-sm">
+			size: <input type="button" class="btn btn-primary" value="Apple" />
+			<input type="button" class="btn btn-primary" value="samsung" /> <input
+				type="button" class="btn btn-primary" value="sony" />
+		</div>
+		<div class="btn-group-vertical">
+			vertical: <input type="button" class="btn btn-primary" value="Apple" />
+			<input type="button" class="btn btn-primary" value="samsung" /> <input
+				type="button" class="btn btn-primary" value="sony" />
+		</div>
+		<div class="btn-group btn-group-justified">
+			justified:
+			<div class="btn-group btn-group-justified">
+				<a href="#" class="btn btn-primary">Apple</a> <a href="#"
+					class="btn btn-primary">Samsung</a> <a href="#"
+					class="btn btn-primary">Sony</a>
+			</div>
+		</div>
+		<div class="btn-group">
+			nested button group: <input type="button" class="btn btn-primary"
+				value="Apple" /> <input type="button" class="btn btn-primary"
+				value="samsung" />
+			<div class="btn-group">
+				<button type="button" class="btn btn-primary dropdown-toggle"
+					data-toggle="dropdown">
+					sony<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu" role="menu">
+					<li>Tab</li>
+					<li>SmartPhones</li>
+				</ul>
+
+			</div>
+
+			<div class="btn-group">
+				<button type="button" class="btn btn-primary">Sony</button>
+				<button type="button" class="btn btn-primary dropdown-toggle"
+					data-toggle="dropdown">
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu" role="menu">
+					<li><a href="#">Tablet</a></li>
+					<li><a href="#">Smartphone</a></li>
+				</ul>
+			</div>
+
+		</div>
+		<div class="dropdown">
+			<button type="button" class="btn btn-primary dropdown-toggle"
+				data-toggle="dropdown">
+				food <span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu" role="menu">
+				<li class="dropdown-header">vegtable</li>
+				<li>Potato</li>
+				<li>Tomato</li>
+				<li>Brinjal</li>
+				<li>Pumpkin</li>
+				<li>lady Finger</li>
+				<li class="divider"></li>
+				<li class="dropdown-header">Fruits</li>
+				<li>Mango</li>
+				<li>Orange</li>
+				<li>Graps</li>
+				<li>Guava</li>
+			</ul>
+		</div>
+		<div class="container">
+			<button data-toggle="collapse" data-target="#col_item">click
+				to collapse</button>
+			<p id="col_item" class="collapse">Colapse the item</p>
+		</div>
+</body>
+</html>
